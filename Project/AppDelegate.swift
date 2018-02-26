@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import Reachability
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -36,6 +37,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationDidBecomeActive(_ application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+        defaultSetting()
     }
 
     func applicationWillTerminate(_ application: UIApplication) {
@@ -95,5 +97,34 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
     }
 
+}
+extension AppDelegate {
+    fileprivate func defaultSetting() {
+        UIApplication.shared.isStatusBarHidden = false
+        UIButton.appearance().isExclusiveTouch = true
+        let url = URL(string: "https://www.baidu.com/")
+        let dataTask = URLSession.shared.dataTask(with: URLRequest(url: url!))
+        dataTask.resume()
+    }
+    
+    fileprivate func setNetworkNotifacation() {
+        lj_reachability = Reachability()
+        NotificationCenter.default.addObserver(self, selector: #selector(networkNotifacation), name: .reachabilityChanged, object: lj_reachability)
+        do {
+            try lj_reachability?.startNotifier()
+        } catch {
+            print("无法开启网络通知")
+        }
+    }
+    @objc fileprivate func networkNotifacation() {
+        lj_reachability?.lj_showStatus()
+    }
+    
+    fileprivate func setWindowRootView() {
+        window = UIWindow(frame: lj_screen)
+        window?.backgroundColor = UIColor.white
+        window?.rootViewController = ViewController()
+        window?.makeKeyAndVisible()
+    }
 }
 

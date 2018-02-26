@@ -15,6 +15,56 @@
 		2D2991B42043986600226015 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D2991B22043986600226015 /* LaunchScreen.storyboard */; };
 		2D2991BF2043986700226015 /* ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2991BE2043986700226015 /* ProjectTests.swift */; };
 		2D2991CA2043986700226015 /* ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2991C92043986700226015 /* ProjectUITests.swift */; };
+		2D2991DC2043AE4F00226015 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D2991DB2043AE4F00226015 /* Security.framework */; };
+		2D2992142043AF7600226015 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2991DD2043AF7500226015 /* Model.swift */; };
+		2D2992152043AF7600226015 /* LJ+Reachability+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2991DF2043AF7500226015 /* LJ+Reachability+extension.swift */; };
+		2D2992162043AF7600226015 /* LJ+MBProgressHUD+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2991E02043AF7500226015 /* LJ+MBProgressHUD+extension.swift */; };
+		2D2992172043AF7600226015 /* LJ+NSNumber+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2991E12043AF7500226015 /* LJ+NSNumber+extension.swift */; };
+		2D2992182043AF7600226015 /* LJ+Date+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2991E22043AF7500226015 /* LJ+Date+extension.swift */; };
+		2D2992192043AF7600226015 /* LJ+String+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2991E32043AF7500226015 /* LJ+String+extension.swift */; };
+		2D29921A2043AF7600226015 /* LJ+UIButton+enxtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2991E42043AF7500226015 /* LJ+UIButton+enxtension.swift */; };
+		2D29921B2043AF7600226015 /* LJ+UIColor+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2991E52043AF7500226015 /* LJ+UIColor+extension.swift */; };
+		2D29921C2043AF7600226015 /* LJ+UIBarButtonItem+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2991E62043AF7500226015 /* LJ+UIBarButtonItem+extension.swift */; };
+		2D29921D2043AF7600226015 /* LJ+UIFont+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2991E72043AF7500226015 /* LJ+UIFont+extension.swift */; };
+		2D29921E2043AF7600226015 /* LJ+UserDefaults+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2991E82043AF7500226015 /* LJ+UserDefaults+extension.swift */; };
+		2D29921F2043AF7600226015 /* LJ+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2991E92043AF7500226015 /* LJ+UIKit.swift */; };
+		2D2992202043AF7600226015 /* LJ+NSMutableAttributedSting+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2991EA2043AF7500226015 /* LJ+NSMutableAttributedSting+extension.swift */; };
+		2D2992212043AF7600226015 /* LJ+UIImage+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2991EB2043AF7500226015 /* LJ+UIImage+extension.swift */; };
+		2D2992222043AF7600226015 /* LJ+UIView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2991EC2043AF7500226015 /* LJ+UIView+extension.swift */; };
+		2D2992232043AF7600226015 /* LJ+Rx+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2991ED2043AF7500226015 /* LJ+Rx+extension.swift */; };
+		2D2992242043AF7600226015 /* LJTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2991EF2043AF7500226015 /* LJTestViewController.swift */; };
+		2D2992252043AF7600226015 /* LJTestViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2991F02043AF7500226015 /* LJTestViewModelType.swift */; };
+		2D2992262043AF7600226015 /* LJTestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2991F12043AF7500226015 /* LJTestViewModel.swift */; };
+		2D2992272043AF7600226015 /* LJTestProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2991F22043AF7500226015 /* LJTestProvider.swift */; };
+		2D2992282043AF7600226015 /* LJNetTestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2991F32043AF7500226015 /* LJNetTestViewModel.swift */; };
+		2D2992292043AF7600226015 /* LJProtocolCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2991F52043AF7500226015 /* LJProtocolCell.swift */; };
+		2D29922A2043AF7600226015 /* LJProtocolTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2991F62043AF7500226015 /* LJProtocolTableVC.swift */; };
+		2D29922B2043AF7600226015 /* LJProtocalSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2991F72043AF7500226015 /* LJProtocalSV.swift */; };
+		2D29922C2043AF7600226015 /* LJProtocolVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2991F82043AF7500226015 /* LJProtocolVC.swift */; };
+		2D29922D2043AF7600226015 /* LJProtocolTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2991F92043AF7500226015 /* LJProtocolTable.swift */; };
+		2D29922E2043AF7600226015 /* LJMoyaBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2991FB2043AF7600226015 /* LJMoyaBaseManager.swift */; };
+		2D29922F2043AF7600226015 /* LJBaseFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2991FC2043AF7600226015 /* LJBaseFunction.swift */; };
+		2D2992302043AF7600226015 /* LJBaseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2991FD2043AF7600226015 /* LJBaseObject.swift */; };
+		2D2992312043AF7600226015 /* LJBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2991FE2043AF7600226015 /* LJBaseNavigationController.swift */; };
+		2D2992322043AF7600226015 /* LJBasicTabBarItemContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2991FF2043AF7600226015 /* LJBasicTabBarItemContentView.swift */; };
+		2D2992332043AF7600226015 /* KeychainConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2992012043AF7600226015 /* KeychainConfiguration.swift */; };
+		2D2992342043AF7600226015 /* KeychainPasswordItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2992022043AF7600226015 /* KeychainPasswordItem.swift */; };
+		2D2992352043AF7600226015 /* LJTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2992032043AF7600226015 /* LJTabBarController.swift */; };
+		2D2992362043AF7600226015 /* LJCalendarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2992052043AF7600226015 /* LJCalendarController.swift */; };
+		2D2992372043AF7600226015 /* LJButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2992062043AF7600226015 /* LJButtonsView.swift */; };
+		2D2992382043AF7600226015 /* LJADLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2992072043AF7600226015 /* LJADLabelView.swift */; };
+		2D2992392043AF7600226015 /* LJWeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2992082043AF7600226015 /* LJWeakTimer.m */; };
+		2D29923A2043AF7600226015 /* LJAnimationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2992092043AF7600226015 /* LJAnimationDemo.swift */; };
+		2D29923B2043AF7600226015 /* LJProjectBaseSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D29920A2043AF7600226015 /* LJProjectBaseSetting.swift */; };
+		2D29923C2043AF7600226015 /* LJUpDownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D29920B2043AF7600226015 /* LJUpDownButton.swift */; };
+		2D29923D2043AF7600226015 /* LJFlipContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D29920C2043AF7600226015 /* LJFlipContentView.swift */; };
+		2D29923E2043AF7600226015 /* LJNewFeatureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D29920D2043AF7600226015 /* LJNewFeatureController.swift */; };
+		2D29923F2043AF7600226015 /* LJCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D29920E2043AF7600226015 /* LJCache.swift */; };
+		2D2992402043AF7600226015 /* LJBouncesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D29920F2043AF7600226015 /* LJBouncesContentView.swift */; };
+		2D2992412043AF7600226015 /* LJPickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2992102043AF7600226015 /* LJPickView.swift */; };
+		2D2992422043AF7600226015 /* LJScrollLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2992122043AF7600226015 /* LJScrollLabelView.swift */; };
+		2D2992432043AF7600226015 /* LJObjectification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2992132043AF7600226015 /* LJObjectification.swift */; };
+		2D91A7CBCF1667D063433816 /* Pods_SwiftProject_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CAF02579CE892452FAA88B8 /* Pods_SwiftProject_Project.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +85,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0979B6C15ED479A7C65C40CE /* Pods-SwiftProject-Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProject-Project.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftProject-Project/Pods-SwiftProject-Project.debug.xcconfig"; sourceTree = "<group>"; };
+		2CAF02579CE892452FAA88B8 /* Pods_SwiftProject_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftProject_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D2991A32043986600226015 /* Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D2991A62043986600226015 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D2991A82043986600226015 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,6 +102,57 @@
 		2D2991C92043986700226015 /* ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectUITests.swift; sourceTree = "<group>"; };
 		2D2991CB2043986700226015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D2991D72043A09600226015 /* Project-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Project-Bridging-Header.h"; sourceTree = "<group>"; };
+		2D2991DB2043AE4F00226015 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2D2991DD2043AF7500226015 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		2D2991DF2043AF7500226015 /* LJ+Reachability+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LJ+Reachability+extension.swift"; sourceTree = "<group>"; };
+		2D2991E02043AF7500226015 /* LJ+MBProgressHUD+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LJ+MBProgressHUD+extension.swift"; sourceTree = "<group>"; };
+		2D2991E12043AF7500226015 /* LJ+NSNumber+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LJ+NSNumber+extension.swift"; sourceTree = "<group>"; };
+		2D2991E22043AF7500226015 /* LJ+Date+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LJ+Date+extension.swift"; sourceTree = "<group>"; };
+		2D2991E32043AF7500226015 /* LJ+String+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LJ+String+extension.swift"; sourceTree = "<group>"; };
+		2D2991E42043AF7500226015 /* LJ+UIButton+enxtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LJ+UIButton+enxtension.swift"; sourceTree = "<group>"; };
+		2D2991E52043AF7500226015 /* LJ+UIColor+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LJ+UIColor+extension.swift"; sourceTree = "<group>"; };
+		2D2991E62043AF7500226015 /* LJ+UIBarButtonItem+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LJ+UIBarButtonItem+extension.swift"; sourceTree = "<group>"; };
+		2D2991E72043AF7500226015 /* LJ+UIFont+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LJ+UIFont+extension.swift"; sourceTree = "<group>"; };
+		2D2991E82043AF7500226015 /* LJ+UserDefaults+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LJ+UserDefaults+extension.swift"; sourceTree = "<group>"; };
+		2D2991E92043AF7500226015 /* LJ+UIKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LJ+UIKit.swift"; sourceTree = "<group>"; };
+		2D2991EA2043AF7500226015 /* LJ+NSMutableAttributedSting+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LJ+NSMutableAttributedSting+extension.swift"; sourceTree = "<group>"; };
+		2D2991EB2043AF7500226015 /* LJ+UIImage+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LJ+UIImage+extension.swift"; sourceTree = "<group>"; };
+		2D2991EC2043AF7500226015 /* LJ+UIView+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LJ+UIView+extension.swift"; sourceTree = "<group>"; };
+		2D2991ED2043AF7500226015 /* LJ+Rx+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LJ+Rx+extension.swift"; sourceTree = "<group>"; };
+		2D2991EF2043AF7500226015 /* LJTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJTestViewController.swift; sourceTree = "<group>"; };
+		2D2991F02043AF7500226015 /* LJTestViewModelType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJTestViewModelType.swift; sourceTree = "<group>"; };
+		2D2991F12043AF7500226015 /* LJTestViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJTestViewModel.swift; sourceTree = "<group>"; };
+		2D2991F22043AF7500226015 /* LJTestProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJTestProvider.swift; sourceTree = "<group>"; };
+		2D2991F32043AF7500226015 /* LJNetTestViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJNetTestViewModel.swift; sourceTree = "<group>"; };
+		2D2991F52043AF7500226015 /* LJProtocolCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJProtocolCell.swift; sourceTree = "<group>"; };
+		2D2991F62043AF7500226015 /* LJProtocolTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJProtocolTableVC.swift; sourceTree = "<group>"; };
+		2D2991F72043AF7500226015 /* LJProtocalSV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJProtocalSV.swift; sourceTree = "<group>"; };
+		2D2991F82043AF7500226015 /* LJProtocolVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJProtocolVC.swift; sourceTree = "<group>"; };
+		2D2991F92043AF7500226015 /* LJProtocolTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJProtocolTable.swift; sourceTree = "<group>"; };
+		2D2991FB2043AF7600226015 /* LJMoyaBaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJMoyaBaseManager.swift; sourceTree = "<group>"; };
+		2D2991FC2043AF7600226015 /* LJBaseFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJBaseFunction.swift; sourceTree = "<group>"; };
+		2D2991FD2043AF7600226015 /* LJBaseObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJBaseObject.swift; sourceTree = "<group>"; };
+		2D2991FE2043AF7600226015 /* LJBaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJBaseNavigationController.swift; sourceTree = "<group>"; };
+		2D2991FF2043AF7600226015 /* LJBasicTabBarItemContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJBasicTabBarItemContentView.swift; sourceTree = "<group>"; };
+		2D2992012043AF7600226015 /* KeychainConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainConfiguration.swift; sourceTree = "<group>"; };
+		2D2992022043AF7600226015 /* KeychainPasswordItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainPasswordItem.swift; sourceTree = "<group>"; };
+		2D2992032043AF7600226015 /* LJTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJTabBarController.swift; sourceTree = "<group>"; };
+		2D2992052043AF7600226015 /* LJCalendarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJCalendarController.swift; sourceTree = "<group>"; };
+		2D2992062043AF7600226015 /* LJButtonsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJButtonsView.swift; sourceTree = "<group>"; };
+		2D2992072043AF7600226015 /* LJADLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJADLabelView.swift; sourceTree = "<group>"; };
+		2D2992082043AF7600226015 /* LJWeakTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJWeakTimer.m; sourceTree = "<group>"; };
+		2D2992092043AF7600226015 /* LJAnimationDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJAnimationDemo.swift; sourceTree = "<group>"; };
+		2D29920A2043AF7600226015 /* LJProjectBaseSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJProjectBaseSetting.swift; sourceTree = "<group>"; };
+		2D29920B2043AF7600226015 /* LJUpDownButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJUpDownButton.swift; sourceTree = "<group>"; };
+		2D29920C2043AF7600226015 /* LJFlipContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJFlipContentView.swift; sourceTree = "<group>"; };
+		2D29920D2043AF7600226015 /* LJNewFeatureController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJNewFeatureController.swift; sourceTree = "<group>"; };
+		2D29920E2043AF7600226015 /* LJCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJCache.swift; sourceTree = "<group>"; };
+		2D29920F2043AF7600226015 /* LJBouncesContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJBouncesContentView.swift; sourceTree = "<group>"; };
+		2D2992102043AF7600226015 /* LJPickView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJPickView.swift; sourceTree = "<group>"; };
+		2D2992112043AF7600226015 /* LJWeakTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJWeakTimer.h; sourceTree = "<group>"; };
+		2D2992122043AF7600226015 /* LJScrollLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJScrollLabelView.swift; sourceTree = "<group>"; };
+		2D2992132043AF7600226015 /* LJObjectification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJObjectification.swift; sourceTree = "<group>"; };
+		6E95E0638F2CEB3E74334A37 /* Pods-SwiftProject-Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProject-Project.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftProject-Project/Pods-SwiftProject-Project.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +160,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D2991DC2043AE4F00226015 /* Security.framework in Frameworks */,
+				2D91A7CBCF1667D063433816 /* Pods_SwiftProject_Project.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +189,8 @@
 				2D2991BD2043986700226015 /* ProjectTests */,
 				2D2991C82043986700226015 /* ProjectUITests */,
 				2D2991A42043986600226015 /* Products */,
+				738D73A1606147ED4ED6EEBB /* Pods */,
+				8B03B0822DA6CFEBED6422C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +207,13 @@
 		2D2991A52043986600226015 /* Project */ = {
 			isa = PBXGroup;
 			children = (
+				2D2991FA2043AF7600226015 /* BaseClass */,
+				2D2991DE2043AF7500226015 /* Extension */,
+				2D2991DD2043AF7500226015 /* Model.swift */,
+				2D2991F42043AF7500226015 /* Protocols */,
+				2D2992002043AF7600226015 /* Src */,
+				2D2991EE2043AF7500226015 /* Test */,
+				2D2992042043AF7600226015 /* Tools */,
 				2D2991A62043986600226015 /* AppDelegate.swift */,
 				2D2991A82043986600226015 /* ViewController.swift */,
 				2D2991AA2043986600226015 /* Main.storyboard */,
@@ -130,6 +244,114 @@
 			path = ProjectUITests;
 			sourceTree = "<group>";
 		};
+		2D2991DE2043AF7500226015 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2D2991DF2043AF7500226015 /* LJ+Reachability+extension.swift */,
+				2D2991E02043AF7500226015 /* LJ+MBProgressHUD+extension.swift */,
+				2D2991E12043AF7500226015 /* LJ+NSNumber+extension.swift */,
+				2D2991E22043AF7500226015 /* LJ+Date+extension.swift */,
+				2D2991E32043AF7500226015 /* LJ+String+extension.swift */,
+				2D2991E42043AF7500226015 /* LJ+UIButton+enxtension.swift */,
+				2D2991E52043AF7500226015 /* LJ+UIColor+extension.swift */,
+				2D2991E62043AF7500226015 /* LJ+UIBarButtonItem+extension.swift */,
+				2D2991E72043AF7500226015 /* LJ+UIFont+extension.swift */,
+				2D2991E82043AF7500226015 /* LJ+UserDefaults+extension.swift */,
+				2D2991E92043AF7500226015 /* LJ+UIKit.swift */,
+				2D2991EA2043AF7500226015 /* LJ+NSMutableAttributedSting+extension.swift */,
+				2D2991EB2043AF7500226015 /* LJ+UIImage+extension.swift */,
+				2D2991EC2043AF7500226015 /* LJ+UIView+extension.swift */,
+				2D2991ED2043AF7500226015 /* LJ+Rx+extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2D2991EE2043AF7500226015 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				2D2991EF2043AF7500226015 /* LJTestViewController.swift */,
+				2D2991F02043AF7500226015 /* LJTestViewModelType.swift */,
+				2D2991F12043AF7500226015 /* LJTestViewModel.swift */,
+				2D2991F22043AF7500226015 /* LJTestProvider.swift */,
+				2D2991F32043AF7500226015 /* LJNetTestViewModel.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		2D2991F42043AF7500226015 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				2D2991F52043AF7500226015 /* LJProtocolCell.swift */,
+				2D2991F62043AF7500226015 /* LJProtocolTableVC.swift */,
+				2D2991F72043AF7500226015 /* LJProtocalSV.swift */,
+				2D2991F82043AF7500226015 /* LJProtocolVC.swift */,
+				2D2991F92043AF7500226015 /* LJProtocolTable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		2D2991FA2043AF7600226015 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				2D2991FB2043AF7600226015 /* LJMoyaBaseManager.swift */,
+				2D2991FC2043AF7600226015 /* LJBaseFunction.swift */,
+				2D2991FD2043AF7600226015 /* LJBaseObject.swift */,
+				2D2991FE2043AF7600226015 /* LJBaseNavigationController.swift */,
+				2D2991FF2043AF7600226015 /* LJBasicTabBarItemContentView.swift */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		2D2992002043AF7600226015 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				2D2992012043AF7600226015 /* KeychainConfiguration.swift */,
+				2D2992022043AF7600226015 /* KeychainPasswordItem.swift */,
+				2D2992032043AF7600226015 /* LJTabBarController.swift */,
+			);
+			path = Src;
+			sourceTree = "<group>";
+		};
+		2D2992042043AF7600226015 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				2D2992052043AF7600226015 /* LJCalendarController.swift */,
+				2D2992062043AF7600226015 /* LJButtonsView.swift */,
+				2D2992072043AF7600226015 /* LJADLabelView.swift */,
+				2D2992082043AF7600226015 /* LJWeakTimer.m */,
+				2D2992092043AF7600226015 /* LJAnimationDemo.swift */,
+				2D29920A2043AF7600226015 /* LJProjectBaseSetting.swift */,
+				2D29920B2043AF7600226015 /* LJUpDownButton.swift */,
+				2D29920C2043AF7600226015 /* LJFlipContentView.swift */,
+				2D29920D2043AF7600226015 /* LJNewFeatureController.swift */,
+				2D29920E2043AF7600226015 /* LJCache.swift */,
+				2D29920F2043AF7600226015 /* LJBouncesContentView.swift */,
+				2D2992102043AF7600226015 /* LJPickView.swift */,
+				2D2992112043AF7600226015 /* LJWeakTimer.h */,
+				2D2992122043AF7600226015 /* LJScrollLabelView.swift */,
+				2D2992132043AF7600226015 /* LJObjectification.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		738D73A1606147ED4ED6EEBB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0979B6C15ED479A7C65C40CE /* Pods-SwiftProject-Project.debug.xcconfig */,
+				6E95E0638F2CEB3E74334A37 /* Pods-SwiftProject-Project.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8B03B0822DA6CFEBED6422C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D2991DB2043AE4F00226015 /* Security.framework */,
+				2CAF02579CE892452FAA88B8 /* Pods_SwiftProject_Project.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +359,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D2991CE2043986700226015 /* Build configuration list for PBXNativeTarget "Project" */;
 			buildPhases = (
+				FB8031D1A8C50E270E1EAF4F /* [CP] Check Pods Manifest.lock */,
 				2D29919F2043986600226015 /* Sources */,
 				2D2991A02043986600226015 /* Frameworks */,
 				2D2991A12043986600226015 /* Resources */,
+				0F41C4E1ED0FB2C403BFA8B4 /* [CP] Embed Pods Frameworks */,
+				352F4D6D9B9D69CD1195F629 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,14 +485,158 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F41C4E1ED0FB2C403BFA8B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftProject-Project/Pods-SwiftProject-Project-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/ESTabBarController-swift/ESTabBarController_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/FSPagerView/FSPagerView.framework",
+				"${BUILT_PRODUCTS_DIR}/KMNavigationBarTransition/KMNavigationBarTransition.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSPagerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KMNavigationBarTransition.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftProject-Project/Pods-SwiftProject-Project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		352F4D6D9B9D69CD1195F629 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftProject-Project/Pods-SwiftProject-Project-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB8031D1A8C50E270E1EAF4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftProject-Project-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2D29919F2043986600226015 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D2992402043AF7600226015 /* LJBouncesContentView.swift in Sources */,
+				2D2992222043AF7600226015 /* LJ+UIView+extension.swift in Sources */,
+				2D29923A2043AF7600226015 /* LJAnimationDemo.swift in Sources */,
+				2D2992372043AF7600226015 /* LJButtonsView.swift in Sources */,
+				2D2992412043AF7600226015 /* LJPickView.swift in Sources */,
+				2D29922B2043AF7600226015 /* LJProtocalSV.swift in Sources */,
+				2D2992352043AF7600226015 /* LJTabBarController.swift in Sources */,
+				2D29923E2043AF7600226015 /* LJNewFeatureController.swift in Sources */,
+				2D29922C2043AF7600226015 /* LJProtocolVC.swift in Sources */,
+				2D2992272043AF7600226015 /* LJTestProvider.swift in Sources */,
 				2D2991A92043986600226015 /* ViewController.swift in Sources */,
+				2D2992242043AF7600226015 /* LJTestViewController.swift in Sources */,
+				2D2992312043AF7600226015 /* LJBaseNavigationController.swift in Sources */,
+				2D2992282043AF7600226015 /* LJNetTestViewModel.swift in Sources */,
+				2D2992192043AF7600226015 /* LJ+String+extension.swift in Sources */,
+				2D29922E2043AF7600226015 /* LJMoyaBaseManager.swift in Sources */,
+				2D29922F2043AF7600226015 /* LJBaseFunction.swift in Sources */,
+				2D2992182043AF7600226015 /* LJ+Date+extension.swift in Sources */,
+				2D2992172043AF7600226015 /* LJ+NSNumber+extension.swift in Sources */,
+				2D29921C2043AF7600226015 /* LJ+UIBarButtonItem+extension.swift in Sources */,
+				2D2992322043AF7600226015 /* LJBasicTabBarItemContentView.swift in Sources */,
+				2D29923F2043AF7600226015 /* LJCache.swift in Sources */,
+				2D2992422043AF7600226015 /* LJScrollLabelView.swift in Sources */,
+				2D2992432043AF7600226015 /* LJObjectification.swift in Sources */,
+				2D29923C2043AF7600226015 /* LJUpDownButton.swift in Sources */,
+				2D2992232043AF7600226015 /* LJ+Rx+extension.swift in Sources */,
+				2D2992252043AF7600226015 /* LJTestViewModelType.swift in Sources */,
+				2D2992392043AF7600226015 /* LJWeakTimer.m in Sources */,
+				2D2992212043AF7600226015 /* LJ+UIImage+extension.swift in Sources */,
+				2D29921A2043AF7600226015 /* LJ+UIButton+enxtension.swift in Sources */,
+				2D2992332043AF7600226015 /* KeychainConfiguration.swift in Sources */,
 				2D2991AF2043986600226015 /* Project.xcdatamodeld in Sources */,
+				2D2992202043AF7600226015 /* LJ+NSMutableAttributedSting+extension.swift in Sources */,
+				2D29921D2043AF7600226015 /* LJ+UIFont+extension.swift in Sources */,
+				2D2992342043AF7600226015 /* KeychainPasswordItem.swift in Sources */,
+				2D29923D2043AF7600226015 /* LJFlipContentView.swift in Sources */,
 				2D2991A72043986600226015 /* AppDelegate.swift in Sources */,
+				2D2992302043AF7600226015 /* LJBaseObject.swift in Sources */,
+				2D2992292043AF7600226015 /* LJProtocolCell.swift in Sources */,
+				2D29921B2043AF7600226015 /* LJ+UIColor+extension.swift in Sources */,
+				2D29922D2043AF7600226015 /* LJProtocolTable.swift in Sources */,
+				2D29921E2043AF7600226015 /* LJ+UserDefaults+extension.swift in Sources */,
+				2D2992362043AF7600226015 /* LJCalendarController.swift in Sources */,
+				2D29921F2043AF7600226015 /* LJ+UIKit.swift in Sources */,
+				2D29922A2043AF7600226015 /* LJProtocolTableVC.swift in Sources */,
+				2D2992262043AF7600226015 /* LJTestViewModel.swift in Sources */,
+				2D2992382043AF7600226015 /* LJADLabelView.swift in Sources */,
+				2D29923B2043AF7600226015 /* LJProjectBaseSetting.swift in Sources */,
+				2D2992142043AF7600226015 /* Model.swift in Sources */,
+				2D2992162043AF7600226015 /* LJ+MBProgressHUD+extension.swift in Sources */,
+				2D2992152043AF7600226015 /* LJ+Reachability+extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +800,7 @@
 		};
 		2D2991CF2043986700226015 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0979B6C15ED479A7C65C40CE /* Pods-SwiftProject-Project.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -449,6 +819,7 @@
 		};
 		2D2991D02043986700226015 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E95E0638F2CEB3E74334A37 /* Pods-SwiftProject-Project.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
