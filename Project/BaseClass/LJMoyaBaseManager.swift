@@ -72,23 +72,23 @@ extension LJApiManager: TargetType {
     }
 }
 
-var hudStr = ""
-var isHud = false
+//var hudStr = ""
+//var isHud = false
 public final class LJRequestPlugin: PluginType {
     var hud: MBProgressHUD?
     
     public func willSend(_ request: RequestType, target: TargetType) {
-        if isHud {
-            hud = MBProgressHUD.lj_showNet(text: hudStr)
-        }
+//        if isHud {
+//            hud = MBProgressHUD.lj_showNet(text: hudStr)
+//        }
         UIApplication.shared.isNetworkActivityIndicatorVisible = true
     }
     public func didReceive(_ result: Result<Response, MoyaError>, target: TargetType) {
-        if isHud {
-            hud?.lj_dismiss()
-            isHud = false
-            hudStr = ""
-        }
+//        if isHud {
+//            hud?.lj_dismiss()
+//            isHud = false
+//            hudStr = ""
+//        }
         UIApplication.shared.isNetworkActivityIndicatorVisible = false
     }
 }

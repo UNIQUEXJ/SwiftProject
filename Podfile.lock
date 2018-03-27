@@ -1,0 +1,90 @@
+PODS:
+  - Alamofire (4.7.0)
+  - ChameleonFramework (2.1.0):
+    - ChameleonFramework/Default (= 2.1.0)
+  - ChameleonFramework/Default (2.1.0)
+  - Differentiator (3.0.2)
+  - ESTabBarController-swift (2.6.1)
+  - FSCalendar (2.7.9)
+  - FSPagerView (0.7.1)
+  - Kingfisher (4.6.4)
+  - KMNavigationBarTransition (1.1.5)
+  - MBProgressHUD (1.1.0)
+  - MJExtension (3.0.13)
+  - MJRefresh (3.1.15.3)
+  - Moya/Core (11.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - Moya/RxSwift (11.0.1):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - ObjectMapper (3.1.0)
+  - PgyUpdate (1.5)
+  - ReachabilitySwift (4.1.0)
+  - Result (3.2.4)
+  - RxAlamofire (4.1.0):
+    - RxAlamofire/Core (= 4.1.0)
+  - RxAlamofire/Core (4.1.0):
+    - Alamofire (~> 4.5)
+    - RxSwift (~> 4.0)
+  - RxCocoa (4.1.2):
+    - RxSwift (~> 4.0)
+  - RxDataSources (3.0.2):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.1.2)
+  - SnapKit (4.0.0)
+  - SwiftDate (4.5.1)
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - ChameleonFramework
+  - ESTabBarController-swift
+  - FSCalendar
+  - FSPagerView
+  - Kingfisher
+  - KMNavigationBarTransition
+  - MBProgressHUD
+  - MJExtension
+  - MJRefresh
+  - Moya/RxSwift
+  - ObjectMapper
+  - PgyUpdate
+  - ReachabilitySwift
+  - RxAlamofire
+  - RxCocoa
+  - RxDataSources
+  - RxSwift
+  - SnapKit
+  - SwiftDate
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 907e0a98eb68cdb7f9d1f541a563d6ac5dc77b25
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  Differentiator: a87be69eba49ec4ab460c7671143ee3a9eececfd
+  ESTabBarController-swift: 1e629e60bc6a87c1ea92a5309489b9f8dde15fa2
+  FSCalendar: a04b09f16f811bc92e82f3cf852a15225233b9d5
+  FSPagerView: 958aba39684e1573755ddcfcc29f7eebb8413cee
+  Kingfisher: 68498a706e46c2a050b0c9572f100e5db407f6e0
+  KMNavigationBarTransition: 7a52c9bc25b39b6e3343e980b453facee1591b82
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  Moya: 3d594ada51a21cc02b18739ab578a1984f900c8a
+  ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
+  PgyUpdate: bad71685b91bba4aa520b7fe29356a476700fdf2
+  ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  RxAlamofire: 96a2bff4694a1609bb59c57b53d99ea7a0ddc64a
+  RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
+  RxDataSources: cb7c31e652a87ebb919da45f716bbb87b3765f6b
+  RxSwift: e49536837d9901277638493ea537394d4b55f570
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SwiftDate: 7b56d42a221f582047287deb256b23fc5ed49a60
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+
+PODFILE CHECKSUM: bd3469c3d611a5e6a783a97664c613577e2f5e26
+
+COCOAPODS: 1.4.0
