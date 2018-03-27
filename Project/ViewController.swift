@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import ObjectMapper
 
 class ViewController: UIViewController, LJProtocolVC {
 
