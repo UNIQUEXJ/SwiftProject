@@ -67,7 +67,8 @@ extension String {
             for i in 0 ..< digestLen {
                 hash.appendFormat("%02x", result[i])
             }
-            result.deinitialize()
+            result.deinitialize(count: 16)
+//            result.deinitialize()
             return String(format: hash as String)
         }
     }

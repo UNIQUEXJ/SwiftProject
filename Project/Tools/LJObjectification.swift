@@ -51,7 +51,7 @@ public class LJObjectification {
     }
     
     private func properties(mirror: Mirror) -> [String] {
-        return mirror.children.flatMap { $0.label }
+        return mirror.children.compactMap { $0.label }
     }
     
     private func values(mirror: Mirror) -> [String] {
@@ -64,7 +64,7 @@ public class LJObjectification {
     }
     
     private func all(mirror: Mirror) -> [String] {
-        return mirror.children.flatMap { $0.label } + values(mirror: mirror)
+        return mirror.children.compactMap { $0.label } + values(mirror: mirror)
     }
     
     private func checkArray(object: Any) -> [String] {

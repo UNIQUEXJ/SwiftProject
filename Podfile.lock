@@ -60,6 +60,32 @@ DEPENDENCIES:
   - SwiftDate
   - SwiftyJSON
 
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - ChameleonFramework
+    - Differentiator
+    - ESTabBarController-swift
+    - FSCalendar
+    - FSPagerView
+    - Kingfisher
+    - KMNavigationBarTransition
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - Moya
+    - ObjectMapper
+    - PgyUpdate
+    - ReachabilitySwift
+    - Result
+    - RxAlamofire
+    - RxCocoa
+    - RxDataSources
+    - RxSwift
+    - SnapKit
+    - SwiftDate
+    - SwiftyJSON
+
 SPEC CHECKSUMS:
   Alamofire: 907e0a98eb68cdb7f9d1f541a563d6ac5dc77b25
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
@@ -87,4 +113,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: bd3469c3d611a5e6a783a97664c613577e2f5e26
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.0.beta.1
