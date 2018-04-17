@@ -13,11 +13,8 @@ abstract_target 'SwiftProject' do
         pod 'MJExtension'
         pod 'SnapKit'
         pod 'SwiftDate'
-        pod 'KMNavigationBarTransition'
         pod 'ChameleonFramework'
-#        pod 'PromiseKit'
         pod 'MBProgressHUD'
-#        pod 'DZNEmptyDataSet'
         pod 'ReachabilitySwift'
         pod 'RxSwift'
         pod 'RxCocoa'
@@ -25,10 +22,13 @@ abstract_target 'SwiftProject' do
         pod 'RxDataSources'
         pod 'FSCalendar'
         pod 'FSPagerView'
+        pod 'ESTabBarController-swift'
 #        pod 'Hero'
 #        pod 'ZCAnimatedLabel'
-        pod 'ESTabBarController-swift'
-#        pod 'MQTTClient'
+#        pod 'DZNEmptyDataSet'
+#        pod 'PromiseKit'
+#        pod 'KMNavigationBarTransition'
+#        pod 'CocoaMQTT'
     end
 end
 

@@ -8,15 +8,6 @@
 
 import MBProgressHUD
 
-func lj_setDefaulteInfo( statusStyle: UIStatusBarStyle? = .lightContent, ctr: UIViewController, titleColor: UIColor? = UIColor.gray, textColor: UIColor? = UIColor.gray,  bgColor: UIColor? = UIColor.white) {
-    //    ctr.navigationController?.navigationBar.backgroundColor = bgColor
-    ctr.navigationController?.navigationBar.setBackgroundImage(bgColor?.lj_image, for: .default)
-    UIApplication.shared.statusBarStyle = statusStyle!
-    let bar = ctr.navigationController?.navigationBar
-    let attr = [NSAttributedStringKey.foregroundColor: titleColor ?? UIColor.gray]
-    bar?.titleTextAttributes = attr
-    bar?.tintColor = textColor
-}
 
 func lj_loginView(_ isError: Bool = true) {
     let window = UIApplication.shared.keyWindow

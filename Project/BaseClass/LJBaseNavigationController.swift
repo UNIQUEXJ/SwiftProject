@@ -14,6 +14,11 @@ class BaseNavigationController: UINavigationController {
         super.viewDidLoad()
         hidesNavigationBarHairline = true
         // Do any additional setup after loading the view.
+        UIApplication.shared.statusBarStyle = .lightContent // 状态栏颜色
+        navigationBar.isTranslucent = false // 是否透明
+        navigationBar.barTintColor = UIColor.red  // 背景颜色
+        navigationBar.tintColor = UIColor.white  // 左右字体颜色
+        navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white] // 中间title样式
     }
     override func pushViewController(_ viewController: UIViewController, animated: Bool) {
         if viewControllers.count > 0 {
