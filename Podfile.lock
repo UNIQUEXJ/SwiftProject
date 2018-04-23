@@ -35,7 +35,7 @@ PODS:
   - RxSwift (4.1.2)
   - SnapKit (4.0.0)
   - SwiftDate (4.5.1)
-  - SwiftyJSON (4.0.0)
+  - SwiftyJSON (4.1.0)
 
 DEPENDENCIES:
   - ChameleonFramework
@@ -105,7 +105,7 @@ SPEC CHECKSUMS:
   RxSwift: e49536837d9901277638493ea537394d4b55f570
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
   SwiftDate: 7b56d42a221f582047287deb256b23fc5ed49a60
-  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
 
 PODFILE CHECKSUM: 94d3cf82025526a29c9eee16c31db78269e76008
 
