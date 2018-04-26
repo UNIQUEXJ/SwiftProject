@@ -11,14 +11,11 @@ import UIKit
 protocol LJProtocalSV {
     func setBaseDefaults()
 }
-extension LJProtocalSV {
+extension LJProtocalSV where Self: UIScrollView {
     func setBaseDefaults() {
-        guard let sv = self as? UIScrollView else {
-            return
-        }
-        sv.bounces = false
-        sv.showsHorizontalScrollIndicator = false
-        sv.isPagingEnabled = true
+        self.bounces = false
+        self.showsHorizontalScrollIndicator = false
+        self.isPagingEnabled = true
     }
 }
 

@@ -10,12 +10,9 @@ protocol LJProtocolTable {
     func setBaseDefaults()
 }
 
-extension LJProtocolTable {
+extension LJProtocolTable where Self: UITableView {
     func setBaseDefaults() {
-        guard let tb = self as? UITableView else {
-            return
-        }
-        tb.backgroundColor = LJColor.tableColor
-        tb.tableFooterView = UIView()
+        self.backgroundColor = LJColor.tableColor
+        self.tableFooterView = UIView()
     }
 }

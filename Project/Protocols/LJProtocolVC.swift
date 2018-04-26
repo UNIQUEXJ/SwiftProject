@@ -9,14 +9,11 @@
 protocol LJProtocolVC {
     func setBaseDefaults()
 }
-extension LJProtocolVC {
+extension LJProtocolVC where Self: UIViewController {
     func setBaseDefaults() {
-        guard let vc = self as? UIViewController else {
-            return
-        }
-        vc.automaticallyAdjustsScrollViewInsets = true
+        self.automaticallyAdjustsScrollViewInsets = true
         let weight = CGFloat(arc4random_uniform(1000)) / 1000
-        vc.view.backgroundColor = UIColor(hue: weight, saturation: 1, brightness: 1, alpha: 1)
-        vc.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
+        self.view.backgroundColor = UIColor(hue: weight, saturation: 1, brightness: 1, alpha: 1)
+        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
     }
 }

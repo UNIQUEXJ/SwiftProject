@@ -9,14 +9,11 @@
 protocol LJProtocolCell {
     func setBaseDefaults()
 }
-extension LJProtocolCell {
+extension LJProtocolCell where Self: UITableViewCell {
     func setBaseDefaults() {
-        guard let cell = self as? UITableViewCell else {
-            return
-        }
-        cell.layer.masksToBounds = true
-        cell.contentView.layer.masksToBounds = true
-        cell.selectionStyle = .none
-        cell.contentView.backgroundColor = UIColor.white
+        self.layer.masksToBounds = true
+        self.contentView.layer.masksToBounds = true
+        self.selectionStyle = .none
+        self.contentView.backgroundColor = UIColor.white
     }
 }
