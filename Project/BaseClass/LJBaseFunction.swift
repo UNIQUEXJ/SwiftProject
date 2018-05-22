@@ -8,6 +8,18 @@
 
 import MBProgressHUD
 
+//MARK: - 用于数组和字典转字符串
+func lj_jsonString(any: Any) -> String {
+    var str = ""
+    do {
+        let temp = try JSONSerialization.data(withJSONObject: any, options: .prettyPrinted)
+        str = String(data: temp, encoding: .utf8) ?? ""
+    } catch let err {
+        lj_print(err)
+    }
+    return str
+}
+
 
 func lj_loginView(_ isError: Bool = true) {
     let window = UIApplication.shared.keyWindow

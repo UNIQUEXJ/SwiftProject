@@ -46,7 +46,7 @@ extension LJTabBarController {
 //        vc.tabBarItem.setTitleTextAttributes([NSAttributedStringKey.foregroundColor: LJColor.themeColor], for: .selected)
         //        vc.tabBarItem.setTitleTextAttributes([NSFontAttributeName: UIFont.systemFont(ofSize: 12, weight: 0)], for: .normal)
         let nav = BaseNavigationController(rootViewController: vc)
-        lj_setDefaulteInfo(statusStyle: .lightContent, ctr: vc, titleColor: UIColor.white, textColor: UIColor.white, bgColor: LJColor.themeColor)
+//        lj_setDefaulteInfo(statusStyle: .lightContent, ctr: vc, titleColor: UIColor.white, textColor: UIColor.white, bgColor: LJColor.themeColor)
         addChildViewController(nav)
     }
 }

@@ -41,7 +41,7 @@ class LJCalendarVC: UIViewController, LJProtocolVC {
     //        dismiss(animated: true, completion: nil)
     //    }
     override func viewWillAppear(_ animated: Bool) {
-        lj_setDefaulteInfo(statusStyle: .lightContent, ctr: self, titleColor: UIColor.white, textColor: UIColor.white, bgColor: LJColor.themeColor)
+//        lj_setDefaulteInfo(statusStyle: .lightContent, ctr: self, titleColor: UIColor.white, textColor: UIColor.white, bgColor: LJColor.themeColor)
     }
 }
 extension LJCalendarVC: FSCalendarDataSource, FSCalendarDelegate {
