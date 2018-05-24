@@ -8,9 +8,21 @@
 
 import ObjectMapper
 
-class LJBaseModel<T>: Mappable {
-    var success: Bool!
+class LJBaseModel<T: Mappable>: Mappable {
+    var success: Bool = false
     var data: T?
+    
+    required init?(map: Map) {}
+    
+    
+    func mapping(map: Map) {
+        success <- map["success"]
+        data <- map["data"]
+    }
+}
+class LJBaseArrayModel<T: Mappable>: Mappable {
+    var success: Bool = false
+    var data: [T]?
     
     required init?(map: Map) {}
     
