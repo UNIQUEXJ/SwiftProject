@@ -14,8 +14,8 @@ let lj_iphone5 = lj_screenHeight <= 568 && lj_screenHeight > 480
 let lj_iphone6 = lj_screenHeight <= 730 && lj_screenHeight > 568
 let lj_iphone6_plus = lj_screenHeight <= 736 && lj_screenHeight > 667
 let lj_iphoneX = lj_screenHeight == 812
-let lj_navMargin = lj_iphoneX ? 88 : 64
-let lj_tabMargin = lj_iphoneX ? 83 : 49
+let lj_navMargin: CGFloat = lj_iphoneX ? 88 : 64
+let lj_tabMargin: CGFloat = lj_iphoneX ? 83 : 49
 
 let lj_ipad = UIDevice.current.userInterfaceIdiom == .pad
 let lj_window = UIApplication.shared.keyWindow ?? UIWindow()
