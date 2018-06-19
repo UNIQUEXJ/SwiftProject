@@ -17,7 +17,7 @@ PODS:
   - Moya/RxSwift (11.0.2):
     - Moya/Core
     - RxSwift (~> 4.0)
-  - ObjectMapper (3.2.0)
+  - ObjectMapper (3.3.0)
   - PgyUpdate (1.6)
   - ReachabilitySwift (4.1.0)
   - Result (3.2.4)
@@ -95,7 +95,7 @@ SPEC CHECKSUMS:
   MJExtension: 3f039575db1b135a20699ad298713b26acec1528
   MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
   Moya: a725035953bc1c0eb1be505ab903984501d82440
-  ObjectMapper: 5cccd2de6f253eda859df8116a5a554d9769e859
+  ObjectMapper: b612bf8c8e99c4dc0bb6013a51f7c27966ed5da9
   PgyUpdate: cd6c2ada5928f36a9f904d8f96a9b3b53e190755
   ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
   Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
