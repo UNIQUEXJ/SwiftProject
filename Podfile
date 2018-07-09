@@ -23,13 +23,16 @@ abstract_target 'SwiftProject' do
         pod 'FSCalendar'
         pod 'FSPagerView'
         pod 'ESTabBarController-swift'
-#	    pod 'SwiftRandom'
+#	     pod 'SwiftRandom'
 #        pod 'Hero'
 #        pod 'ZCAnimatedLabel'
 #        pod 'DZNEmptyDataSet'
 #        pod 'PromiseKit'
 #        pod 'KMNavigationBarTransition'
 #        pod 'CocoaMQTT'
+#        pod 'LTMorphingLabel'
+#        pod 'ViewAnimator'
+#        pod 'EasyAnimation'
     end
 end
 

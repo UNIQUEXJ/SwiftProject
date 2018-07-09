@@ -65,6 +65,7 @@
 		2D2992422043AF7600226015 /* LJScrollLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2992122043AF7600226015 /* LJScrollLabelView.swift */; };
 		2D2992432043AF7600226015 /* LJObjectification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2992132043AF7600226015 /* LJObjectification.swift */; };
 		2D91A7CBCF1667D063433816 /* Pods_SwiftProject_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CAF02579CE892452FAA88B8 /* Pods_SwiftProject_Project.framework */; };
+		2DF0A59920F2EFA800B51AD7 /* LJAttributView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF0A59820F2EFA800B51AD7 /* LJAttributView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -152,6 +153,7 @@
 		2D2992112043AF7600226015 /* LJWeakTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJWeakTimer.h; sourceTree = "<group>"; };
 		2D2992122043AF7600226015 /* LJScrollLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJScrollLabelView.swift; sourceTree = "<group>"; };
 		2D2992132043AF7600226015 /* LJObjectification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJObjectification.swift; sourceTree = "<group>"; };
+		2DF0A59820F2EFA800B51AD7 /* LJAttributView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LJAttributView.swift; sourceTree = "<group>"; };
 		6E95E0638F2CEB3E74334A37 /* Pods-SwiftProject-Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProject-Project.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftProject-Project/Pods-SwiftProject-Project.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -330,6 +332,7 @@
 				2D2992102043AF7600226015 /* LJPickView.swift */,
 				2D2992122043AF7600226015 /* LJScrollLabelView.swift */,
 				2D2992132043AF7600226015 /* LJObjectification.swift */,
+				2DF0A59820F2EFA800B51AD7 /* LJAttributView.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -599,6 +602,7 @@
 				2D2992212043AF7600226015 /* LJ+UIImage+extension.swift in Sources */,
 				2D29921A2043AF7600226015 /* LJ+UIButton+enxtension.swift in Sources */,
 				2D2992332043AF7600226015 /* KeychainConfiguration.swift in Sources */,
+				2DF0A59920F2EFA800B51AD7 /* LJAttributView.swift in Sources */,
 				2D2991AF2043986600226015 /* Project.xcdatamodeld in Sources */,
 				2D2992202043AF7600226015 /* LJ+NSMutableAttributedSting+extension.swift in Sources */,
 				2D29921D2043AF7600226015 /* LJ+UIFont+extension.swift in Sources */,
