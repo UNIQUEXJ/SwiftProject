@@ -33,6 +33,8 @@ abstract_target 'SwiftProject' do
 #        pod 'LTMorphingLabel'
 #        pod 'ViewAnimator'
 #        pod 'EasyAnimation'
+#	 pod 'pop'
+#	 pod 'RealmSwift'
     end
 end
 
